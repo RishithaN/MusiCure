@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+#playing .control{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+
+}
+
+
+#playPauseIcon{
+    font-size: 40px;
+    position: absolute;
+    top: 8px;
+    left: 660px;
+    color: white;
+    
+}
+
+#playPauseIcon:hover {
+    font-size: 42px;
+}
+
+
+.nextIcon , .previousIcon , .likeIcon , .volumeIcon{
+    font-size: 24px;
+    position: absolute;
+    top: 16px;
+    color: #bebebe;
+}
+
+.nextIcon:hover , .previousIcon:hover{
+    color: white;
+    font-size: 26px;
+}
+
+.previousIcon{
+    left: 620px;
+}
+
+.nextIcon{
+    left: 715px;
+}
+
+#like{
+    position: absolute;
+    left:1300px;
+    top:35px
+}
+
+.likeIcon:hover{
+    color: #1DB954;
+}
+
+#liked{
+    color: #1DB954;
+    position: 1300px;
+    top: 35px;
+    left: 1300px;
+}
+
+#liked:hover{
+    color: white;
+}
+
+
+.volume_down i{
+    left: 1030px;
+    position: absolute;
+    top: 35px;
+}
+
+.volume_up i{
+    left: 1195px;
+    position: absolute;
+    top: 35px;
+} 
+
+.volumeIcon:hover{
+    color: white;
+}
+
+
+
+#volumeMeter{
+    margin-left: 1060px;
+    margin-top: 25px;
+    width: 125px;
+    height: 7px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#volumeStatus{
+    height: 7px;
+    background-color: #1DB954;
+    border-radius: 10px;
+}
+
+
+
+#songSlider{
+    margin-top: 8px;
+    width: 500px;
+    height: 7px;
+    background-color: grey;
+    border-radius: 10px;
+}
+/*Track progress bar*/
+#trackProgress{
+    margin-top: 8px;
+    width: 0px;
+    height: 7px;
+    background-color: #1DB954;
+    border-radius: 10px;
+}
+
+/* .pause{
+    visibility: hidden;
+} */
+
+.playingInfo{
+    color: white;
+}
+
+.playingName , .playingArtist{
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+
+.playingName{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.playingArtist{
+    position: absolute;
+    top: 46px;
+    font-size: 12px;
+    color: #bebebe;
+}
+
+.playingInfo .playingImg{
+    height: 60px;
+    width: 60px;
+    left: 10px;
+    top: 15px;
+    position: absolute;
+} 
+
+#playing{
+    z-index: 9;
+    position: fixed;
+    height: 13.5%;
+    background-color: #181818;
+    width: 100%;
+    top:568px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222222;
+}
+
+
+    
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.song-slider{
+    z-index: 9;
+    position: fixed;
+    left: 425px;
+    top: 625px;
+    
+}
+
+.current-time , .song-duration{
+    color: #bebebe;
+    font-size: 13px;
+}
+
+.current-time{
+    left: 390px;
+    position: fixed;
+    top: 629px;
+}
+
+.song-duration{
+    left: 933px;
+    position: fixed;
+    top: 629px;
+}
+
+
+#songInfo {
+    position: absolute;
+    left: 300px;
+}
+
+
+#songInfo h1, #songInfo h2, #songInfo h3{
+    position: fixed;
+    left: 600px;
+}
+
+#songInfoName{
+    top: 100px;
+    font-size: 60px;
+    color: white;
+}
+
+#songInfoAlbum{
+    top: 250px;
+    color: #bebebe;
+}
+
+#songInfoPlay{
+    color: white;
+    position: absolute;
+    left: 290px;
+    font-size: 48px;
+    top: 300px;
+}
+
+#songInfoPlay:hover{
+    color: #1DB954;
+    cursor: pointer;
+}
+
+#songInfoImg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+
+}
+
+#songInfoArtist{
+    top: 200px;
+    color: #bebebe;
+}
+
+
+#likeSongId{
+    top:70px;
+}

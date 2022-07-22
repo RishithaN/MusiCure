@@ -1,0 +1,147 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+.btn1 {
+    background-color: #1DB954;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  
+  .btn1:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn2 {
+    padding: 14px 20px;
+    background-color: black;
+  }
+  
+  
+  .cancelbtn2, .signupbtn2 {
+    float: left;
+    /* width: 45%; */
+  }
+
+  .forgotpsw{
+    padding: 14px 20px;
+    background-color: black;
+    float: right;
+    width: 45%;
+  }
+  
+  
+  .container1 , .container2{
+    padding: 16px;
+    color: black;
+  }
+
+  .container1{
+    margin-bottom: 10px;
+  }
+  .container2{
+    margin-bottom: 50px;
+  }
+
+
+  
+  span.psw2 {
+    float: initial;
+    padding-top: 16px;
+  }
+  
+  
+  .modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  
+  
+  .modal-content2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+  
+  .close2 {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  
+  .animate2 {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  span.psw2 a {
+
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  span.psw2 a:hover {
+  
+    color: black;
+  }
+  
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    span.psw2 {
+       display: block;
+       float: none;
+    }
+    .cancelbtn2,.forgotpsw {
+       width: 100%;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+
+.rightNavBar {
+
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+    font-size: 20px;
+
+
+}
+
+.rightNavBar a{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+  
+
+}
+
+.rightNavBar a:hover{
+
+    font-family: 'Lato', sans-serif;
+    background-color: #111;;
+    color: #1DB954;
+    text-decoration: none;
+
+}

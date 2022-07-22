@@ -1,0 +1,97 @@
+body{
+    background-color: #121212;
+}
+
+
+#artistInfo {
+    position: absolute;
+    left: 300px;
+    overflow: hidden;
+}
+
+#artistInfoName{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    color: white;
+    font-size: 60px;
+}
+
+
+#artistInfoPlay{
+    color: white;
+    position: relative;
+    left: 290px;
+    font-size: 48px;
+    top: 270px;
+}
+
+#artistInfoPlay:hover{
+    color: #1DB954;
+    cursor: pointer;
+}
+
+#artistInfoImg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+
+}
+
+
+
+.artistColumns{
+    border-bottom: 0.1px solid #757575;
+    font-family: 'Montserrat', sans-serif;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+
+.artistImg{
+    height: 40px;
+    width: 40px;
+}
+
+
+tr{
+    color: #bebebe;
+}
+
+
+
+#artistInfo table {
+    border-collapse: collapse;
+    margin-bottom: 125px;
+    margin-top: 250px;
+}
+
+
+td, th {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+th{
+    padding-bottom: 25px;
+}
+
+#artistSongTable tr td {
+    color: #bebebe;
+}
+
+#artistSongTable tr td:nth-child(3){
+    color: white;
+}
+
+
+.artistDesc {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    color: #bebebe;
+    font-size: 25px;
+}

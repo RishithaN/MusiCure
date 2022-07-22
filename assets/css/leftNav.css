@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    background: #121212;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+  height: 86.5%;
+  width: 17.9%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.navigation .nav{
+    padding-top: 0;
+}
+
+.navigation .nav p{
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+#homeNav{
+    position: fixed;
+    top: 100px;
+    left: 15px;
+}
+
+#profileNav{
+    position: fixed;
+    top: 150px;
+    left: 15px;
+}
+
+#favoriteNav{
+    position: fixed;
+    top: 200px;
+    left: 15px;
+}
+
+#searchNav{
+    position: fixed;
+    top: 250px;
+    left: 15px;
+}
+
+
+
+.navigation .nav i{
+    color: white;
+    size: 36px;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+
+
+.navigation .nav p:hover{
+    color: #1DB954;
+    font-weight: 600px;
+}
+

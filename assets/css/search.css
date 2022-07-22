@@ -1,0 +1,56 @@
+ #cancelSearch i{
+   color: black;
+   font-size: 30px;
+   visibility: visible;
+   position: absolute;
+   top: 20px;
+   left: 450px;
+ }
+ 
+ .searchContainer{
+   position: fixed;
+   left: 500px;
+   top: 50px;
+ }
+
+ #search{
+   background-color: white;
+   border-color: #1DB954;
+   border-width: 3px;
+   width: 500px;
+   height: 50px;
+   border-radius: 10px;
+   
+ }
+
+  #nameDiv {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed; 
+    overflow-y: scroll;
+    top: 125px; 
+    right: 0;
+    bottom: 0;
+    left: 550px;
+    width: 400px;
+  }
+  
+  #nameDiv li a {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    cursor: pointer;
+  }
+  
+  #nameDiv li a:hover:not(.header) {
+    background-color: #1DB954;
+    color: white;
+    border-color: #1DB954;
+  }

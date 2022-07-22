@@ -1,0 +1,104 @@
+#favoritesContent{
+    color: white;
+    left: 275px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.favoritesIcon{
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    height: 250px;
+}
+
+.favoritesTitle {
+    position: absolute;
+    left: 275px;
+    color: white;
+    font-size: 75px;
+    font-family: 'Righteous', cursive;
+    top: 30px;
+}
+
+.playFavorites{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    position: absolute;
+    left: 275px;
+    top: 280px;
+
+}
+
+.playFavorites:hover{
+    color: #1DB954;
+}
+
+
+.playFavorites i{
+    font-size: 50px;
+}
+
+.favoritesTotal{
+    color: #bebebe;
+    position: absolute;
+    left:275px;
+    top: 120px;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#favoritesContent table {
+    border-collapse: collapse;
+    margin-bottom: 125px;
+    margin-top: 400px;
+}
+
+.favoriteColumns {
+    border-bottom: 0.1px solid #757575;
+    font-family: 'Montserrat', sans-serif;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+.favoriteImg {
+    height: 40px;
+    width: 40px;
+}
+
+
+#favoritesContent table td, #favoritesContent table th {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right:30px;
+    
+}
+
+.favoriteRow {
+    color: #bebebe;
+}
+
+.titleFavorite {
+    color: white;
+    padding-left: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.likeFavorite i{
+    color: #1DB954;
+    font-size: 20px;
+}
+
+.likeFavorite{
+    padding-right: 0px;
+}
+
+
+th{
+    padding-bottom: 25px;
+}

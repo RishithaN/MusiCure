@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+
+#profileContent{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.userField{
+    color: #bebebe;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.userFieldFill{
+    color: white;
+    font-size: 23px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.profileTitle{
+    color: #1DB954;
+    position: relative;
+    left: 150px;
+    font-size: 50px;
+    display: inline;
+}
+
+.profileTitleName{
+    color: white;
+    position: relative;
+    left: 150px;
+    font-size: 50px;
+    display: inline;
+}
+
+#editPassword{
+    color: rgb(236, 223, 223);
+    position: absolute;
+    top: 475px;
+    left: 280px;
+}

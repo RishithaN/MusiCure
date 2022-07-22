@@ -1,0 +1,87 @@
+body{
+    background-color: #121212;
+}
+
+
+#themeContents {
+    position: absolute;
+    left: 300px;
+    overflow: hidden;
+}
+
+#themeInfoName{
+    position: absolute;
+    top: 15px;
+    left: 300px;
+    color: white;
+    font-size: 75px;
+}
+
+
+#themeSongPlay i{
+    color: white;
+    position: relative;
+    left: 290px;
+    font-size: 48px;
+    top: 200px;
+}
+
+#themeSongPlay i:hover{
+    color: #1DB954;
+    cursor: pointer;
+}
+
+#themeInfoImg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+
+}
+
+
+.themeColumns{
+    border-bottom: 0.1px solid #757575;
+    font-family: 'Montserrat', sans-serif;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+
+.themeSongImg{
+    height: 40px;
+    width: 40px;
+}
+
+
+tr{
+    color: #bebebe;
+}
+
+
+
+#themeContents table {
+    border-collapse: collapse;
+    margin-bottom: 125px;
+    margin-top: 250px;
+}
+
+
+td, th {
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+th{
+    padding-bottom: 25px;
+}
+
+#themeSongTable tr td {
+    color: #bebebe;
+}
+
+#themeSongTable tr td:nth-child(3){
+    color: white;
+}

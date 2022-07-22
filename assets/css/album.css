@@ -1,0 +1,88 @@
+body{
+    background-color: #121212;
+}
+
+
+#albumInfo {
+    position: absolute;
+    left: 315px;
+    overflow: hidden;
+}
+
+#albumInfoName{
+    position: absolute;
+    right: 0;
+    top: 70px;
+    left: 300px;
+    color: white;
+    font-size: 50px;
+}
+
+
+#albumInfoPlay{
+    color: white;
+    position: relative;
+    left: 290px;
+    font-size: 48px;
+    top: 210px;
+}
+
+#albumInfoPlay:hover{
+    color: #1DB954;
+    cursor: pointer;
+}
+
+#albumInfoImg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+
+}
+
+
+.albumColumns{
+    border-bottom: 0.1px solid #757575;
+    font-family: 'Montserrat', sans-serif;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+
+.albumImg{
+    height: 40px;
+    width: 40px;
+}
+
+
+tr{
+    color: #bebebe;
+}
+
+
+
+#albumInfo table {
+    border-collapse: collapse;
+    margin-bottom: 125px;
+    margin-top: 250px;
+}
+
+
+#albumInfo table td, #albumInfo table th {
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+
+th{
+    padding-bottom: 25px;
+}
+
+#albumSongTable tr td {
+    color: #bebebe;
+}
+
+#albumSongTable tr td:nth-child(3){
+    color: white;
+}

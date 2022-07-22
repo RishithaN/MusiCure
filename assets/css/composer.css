@@ -1,0 +1,98 @@
+body{
+    background-color: #121212;
+}
+
+
+#composerInfo {
+    position: absolute;
+    left: 275px;
+    overflow: hidden;
+}
+
+#composerInfoName{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    color: white;
+    font-size: 60px;
+}
+
+
+#composerInfoPlay{
+    color: white;
+    position: relative;
+    left: 290px;
+    font-size: 48px;
+    top: 270px;
+}
+
+#composerInfoPlay:hover{
+    color: #1DB954;
+    cursor: pointer;
+}
+
+#composerInfoImg{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+
+}
+
+
+
+.composerColumns{
+    border-bottom: 0.1px solid #757575;
+    font-family: 'Montserrat', sans-serif;
+    color: #bebebe;
+    font-size: 15px;
+}
+
+
+.composerImg{
+    height: 40px;
+    width: 40px;
+}
+
+
+tr{
+    color: #bebebe;
+}
+
+
+
+#composerInfo table {
+    border-collapse: collapse;
+    margin-bottom: 125px;
+    margin-top: 250px;
+}
+
+
+#composerInfo table td, #composerInfo table th {
+    text-align: left;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+
+th{
+    padding-bottom: 25px;
+}
+
+#composerSongTable tr td {
+    color: #bebebe;
+}
+
+#composerSongTable tr td:nth-child(3){
+    color: white;
+}
+
+
+.composerDesc {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    color: #bebebe;
+    font-size: 25px;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+body{
+    background-color: #121212;
+}
+
+
+
+.heading{
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    left: 35px;
+    top: 25px;
+}
+
+
+#homeContent{
+    left: 275px;
+    position: absolute;
+    left: 300px;
+}
+
+#greeting{
+    color: white;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    
+}
+
+.theme div{
+    display: inline;
+}
+
+.theme{
+    margin-top: 75px;
+}
+
+
+.themeName{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.themeImg{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.themeHomeElse{
+    color: white;
+    margin-top: 250px;
+}
+
+
